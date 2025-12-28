@@ -27,6 +27,10 @@ public class ComprasProducto {
         return id;
     }
 
+    public void setId(ComprasProductoPK id) {
+        this.id = id;
+    }
+
     public Integer getCantidad() {
         return cantidad;
     }
@@ -49,5 +53,21 @@ public class ComprasProducto {
 
     public void setEstado(Boolean estado) {
         this.estado = estado;
+    }
+
+    public Producto getProducto() {
+        return producto;
+    }
+
+    public void setProducto(Producto producto) {
+        this.producto = producto;
+    }
+
+    public Compra getCompra() {
+        return compra;
+    }
+
+    public void setCompra(Compra compra) {
+        this.compra = compra;
     }
 }

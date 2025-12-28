@@ -17,9 +17,15 @@ public class ComprasProductoPK implements Serializable {
         return idCompra;
     }
 
+    public void setIdCompra(Integer idCompra) {
+        this.idCompra = idCompra;
+    }
 
     public Integer getIdProducto() {
         return idProducto;
     }
 
+    public void setIdProducto(Integer idProducto) {
+        this.idProducto = idProducto;
+    }
 }

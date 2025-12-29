@@ -1,4 +1,6 @@
-package com.platzi_market.domain;
+package com.platzi_market.domain.DTO;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 public class Product {
     private int productId;
@@ -7,6 +9,7 @@ public class Product {
     private double price;
     private int stock;
     private boolean active;
+    @JsonIgnore
     private Category category;
 
     public int getProductId() {

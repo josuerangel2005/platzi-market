@@ -1,7 +1,6 @@
 package com.platzi_market.domain.repository;
 
-import com.platzi_market.domain.Purchase;
-import org.springframework.beans.factory.ObjectProvider;
+import com.platzi_market.domain.DTO.Purchase;
 
 import java.util.List;
 import java.util.Optional;

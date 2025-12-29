@@ -1,4 +1,4 @@
-package com.platzi_market.domain;
+package com.platzi_market.domain.DTO;
 
 import java.time.LocalDateTime;
 import java.util.List;

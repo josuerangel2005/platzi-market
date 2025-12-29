@@ -20,6 +20,7 @@ public class ComprasProducto {
     private Producto producto;
 
     @ManyToOne(fetch = FetchType.LAZY)
+    @MapsId("idCompra")
     @JoinColumn(name = "id_compra", insertable = false, updatable = false)
     private Compra compra;
 
